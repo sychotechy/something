@@ -25,24 +25,22 @@ a {
 
 /* main styling */
 .container {
-  display: grid;
-  place-items: center;
-  height: 100vh;
-  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
 .video-container {
   position: relative;
   border-radius: 10px;
-  height: 90vh;
-  width: 90vh;
-  max-width: 500px;
-  max-height: 900px;
+  width: 90%;
+  aspect-ratio: 9 / 16;
+  max-width: 400px;
   box-shadow: 0 0 50px #000;
   margin: auto;
-  overflow: scroll;
-  scroll-snap-type: y mandatory;
-  scroll-snap-align: center;
+  overflow: hidden;
 }
 /* video container header */
 .video-container-header {
@@ -76,7 +74,6 @@ a {
   height: 100%;
   width: 100%;
   overflow: hidden;
-  scroll-snap-align: center;
 }
 .video-player {
   position: relative;
