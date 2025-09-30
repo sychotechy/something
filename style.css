@@ -34,8 +34,9 @@ a {
 .video-container {
   position: relative;
   border-radius: 10px;
-  height: 659px;
-  width: 330px;
+  height: 90vh;
+  width: 90vh;
+  max-width: 500px;
   box-shadow: 0 0 50px #000;
   margin: auto;
   overflow: scroll;
@@ -71,8 +72,8 @@ a {
 }
 .post {
   position: relative;
-  height: 659px;
-  width: 330px;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
   scroll-snap-align: center;
 }
